@@ -1,0 +1,275 @@
+html, body, div, span, applet, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a, abbr, acronym, address, big, cite, code, del, dfn, em, img, ins, kbd, q, s, samp, small, strike, strong, sub, sup, tt, var, b, u, i, center, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, embed, figure, figcaption, footer, header, hgroup, menu, nav, output, ruby, section, summary, time, mark, audio, video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+table{
+	border-collapse: collapse;
+}
+
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, section {
+  display: block; }
+
+html, body{
+	height: 100%;
+}
+body{
+	background: #FFFFFF;
+	font-family: 'Varela Round', sans-serif;
+}
+a:hover, a:visited{
+	color:#337ab7;
+}
+select{
+	cursor: pointer;
+}
+.container{
+	width: 100%;
+}
+.wrapper{
+	padding: 0 10%;
+}
+
+/* HEADER */
+.header{
+	background: steelblue;
+	border-bottom: 2px solid navy;
+	height: 45px;
+	line-height: 45px;
+}
+
+
+/* MAP AREAS */
+div#maincon{
+	min-width: 0px;
+	padding-bottom: 30px;
+	width: 100%;
+}
+div#map1{
+	border-right: 1px solid #EEE;
+}
+div#map2{
+	width: 100%;
+}
+@media screen and (max-width: 1024px) {
+	div.map{
+		border: 0;
+	  width: 100%; 
+	} 
+	div#map1{
+		border-right: 0;
+		border-bottom: 1px solid #EEE;
+		padding-bottom: 25px;
+	}
+}
+
+/* CONGRESS TABLE */
+
+.congress{
+	width: 100%;
+}
+.congress td{
+	border: 1px solid #CCC;
+	color: white;
+	padding: 8px;
+	text-align: center;
+	vertical-align: middle;
+}
+.congress td:first-child{
+	font-size: 20px;
+}
+.congress td:nth-child(2){
+	width: 120px;
+}
+.congress td:nth-child(3){
+	width: 40px;
+}
+.Republican{background-color: indianred;}
+.Democrat{background-color: steelblue;}
+.Independent{background-color: goldenrod;}
+
+
+
+
+
+/* STATEWIDE INFO */
+.state-cand{
+	background: #999;
+	border-bottom: 1px solid #EEE;
+	color: white;
+	fill: #999;
+	font-size: 16px;
+	padding: 5px 10px;
+	text-align: center;
+}
+.state-cand:first-child{
+	font-size: 16px;
+	padding: 10px 10px;
+	text-align: center;
+}
+.state-votes{
+	font-size: 14px;
+	margin-left: 3px;
+}
+.state-pct{
+	color: #000;
+	font-size: 14px;
+	margin-left: 10px;
+}
+.barack-obama{fill: white; background: white;}
+.hillary-clinton{fill: steelblue; background: steelblue;}
+.john-edwards{fill: teal; background: teal;}
+.dennis-kucinich{fill: royalblue; background: royalblue;}
+.bill-richardson{fill: cornflowerblue; background: cornflowerblue;}
+.john-mccain{fill: #B22222; background: #B22222;}
+.mitt-romney{fill: white; background: white;}
+.mike-huckabee, .rick-santorum{fill: crimson; background: crimson;}
+.ron-paul{fill: orangered; background: orangered;}
+.rudy-giuliani, .jon-huntsman--jr-{fill: salmon; background: salmon;}
+.cynthia-mckinney, .jill-stein{fill: mediumseagreen; background: mediumseagreen;}
+.newt-gingrich{fill: purple; background: purple;}
+.bob-barr, .gary-johnson{fill: goldenrod; background: goldenrod;}
+.virgil-goode, .chuck-baldwin{fill: violet; background: violet;}
+.peta-lindsay{fill: violet; background: violet;}
+
+
+/* TOOLTIPS */
+path{
+	cursor: pointer;
+}
+div.tooltip{
+	background: #FFF;
+	box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.75);
+	font-family: 'Varela Round', sans-serif;
+	height: auto;
+	pointer-events: none;
+	position: absolute;
+}
+p.county-name{
+	border-bottom: 1px solid #EEE;
+	font-size: 16px;
+	font-weight: bold;
+	margin-bottom: 10px;
+	padding: 7px 15px;
+	text-align: left;
+}
+p.county-name span{
+	color: #CCC;
+	font-size: 12px;
+	margin-left: 10px;
+}
+table.county-results{
+	margin: 10px 15px 10px 15px;
+	width: 95%;
+}
+table.county-results th{
+	color: darkred;
+	font-size: 12px;
+	padding-bottom: 8px;
+	text-align: center;
+}
+table.county-results tr{
+	border-bottom: 1px solid #EEE;
+}
+table.county-results tr:first-child, table.county-results tr:last-child{
+	border-bottom: none;
+}
+table.county-results td{
+	font-size: 12px;
+	padding: 5px 15px;
+	text-align: right;
+}
+table.county-results td.cand-name{
+	font-size: 14px;
+	font-weight: bold;
+	padding-left: 0px;
+	text-align: left;
+}
+
+/* ABOUT */
+.text{
+	display: none;
+	margin-left: 8%;
+	padding-bottom: 30px;
+	width: 84%;
+}
+@media screen and (max-width: 900px) {
+	.text{
+		margin-left:4%;
+		width: 92%;
+	}
+}
+.text h1{
+	border-bottom: 1px solid #EEE;
+	color: crimson;
+	font-size: 40px;
+	margin: 35px 0 25px;
+	text-align: left;
+}
+.text h2{
+	color: steelblue;
+	font-size: 28px;
+	margin: 35px 0 15px;
+}
+.text p{
+	font-family: 'Fira Sans', sans-serif;
+	font-size: 18px;
+	line-height: 32px;
+}
+.text p:last-child{
+	font-size: 22px;
+	margin-top: 30px;
+	text-align: center;
+}
+
+
+/* FOOTER */
+.footer{
+	background: #333;
+	clear: both;
+	color: #FFF;
+	margin-top: 0px;
+	text-align: center;
+}
+.footer, .push{
+	height: 125px; 
+}
+.footer p{
+	font-size: 16px;
+	line-height: 125px;
+	margin-bottom: 0;
+}
+.non-footer { 
+  min-height: 100%;
+  height: auto !important;
+  height: 100%;
+  margin: 0 auto -125px; 
+}
+
+
+
+/*.axis path, .axis line{
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.axis text{
+	font-family: sans-serif;
+	font-size: 12px;
+}
+
+
+.x-axis path, .x-axis line, .y-axis path, .y-axis line{
+	fill: none;
+	stroke: black;
+	shape-rendering: crispEdges;
+}
+
+.x-axis text, .y-axis text{
+	font-family: sans-serif;
+	font-size: 12px;
+}*/

@@ -72,6 +72,7 @@ div#map2{
 	width: 100%;
 }
 .congress td{
+	background:;
 	border: 1px solid #CCC;
 	color: white;
 	padding: 8px;
@@ -87,9 +88,9 @@ div#map2{
 .congress td:nth-child(3){
 	width: 40px;
 }
-.Republican{background-color: indianred;}
-.Democrat{background-color: steelblue;}
-.Independent{background-color: goldenrod;}
+.R{background-color: indianred;}
+.D{background-color: steelblue;}
+.I{background-color: goldenrod;}
 
 
 

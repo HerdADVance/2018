@@ -1,0 +1,1002 @@
+var senateData =[  
+   {  
+      "first_name":"Lamar",
+      "last_name":"Alexander",
+      "party":"R",
+      "state":"TN",
+      "twitter_account":"SenAlexander",
+      "facebook_id":"89927603836",
+      "url":"https://www.alexander.senate.gov/public/index.cfm/home",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Tammy",
+      "last_name":"Baldwin",
+      "party":"D",
+      "state":"WI",
+      "twitter_account":"SenatorBaldwin",
+      "facebook_id":"7357041101",
+      "url":"https://www.baldwin.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"John",
+      "last_name":"Barrasso",
+      "party":"R",
+      "state":"WY",
+      "twitter_account":"SenJohnBarrasso",
+      "facebook_id":"21146775942",
+      "url":"http://www.barrasso.senate.gov",
+      "status": "Reservations"
+   },
+    {  
+      "first_name":"Michael",
+      "last_name":"Bennet",
+      "party":"D",
+      "state":"CO",
+      "twitter_account":"SenBennetCo",
+      "facebook_id":"97172997732",
+      "url":"https://www.bennet.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Richard",
+      "last_name":"Blumenthal",
+      "party":"D",
+      "state":"CT",
+      "twitter_account":"SenBlumenthal",
+      "facebook_id":"289987304364966",
+      "url":"https://www.blumenthal.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Roy",
+      "last_name":"Blunt",
+      "party":"R",
+      "state":"MO",
+      "twitter_account":"RoyBlunt",
+      "facebook_id":"142473042477322",
+      "url":"http://www.blunt.senate.gov/public",
+      "status": "Supports"
+   },
+   {  
+      "first_name":"John",
+      "last_name":"Boozman",
+      "party":"R",
+      "state":"AR",
+      "twitter_account":"JohnBoozman",
+      "facebook_id":"7686715735",
+      "url":"https://www.boozman.senate.gov/public/index.cfm/home",
+      "status": "Unclear"
+   },
+   {  
+      "first_name":"Sherrod",
+      "last_name":"Brown",
+      "party":"D",
+      "state":"OH",
+      "twitter_account":"SenSherrodBrown",
+      "facebook_id":"",
+      "url":"https://www.brown.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Richard",
+      "last_name":"Burr",
+      "party":"R",
+      "state":"NC",
+      "twitter_account":"SenatorBurr",
+      "facebook_id":"132653626787856",
+      "url":"http://www.burr.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Cory",
+      "last_name":"Booker",
+      "party":"D",
+      "state":"NJ",
+      "twitter_account":"CoryBooker",
+      "facebook_id":"",
+      "url":"http://www.booker.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Maria",
+      "last_name":"Cantwell",
+      "party":"D",
+      "state":"WA",
+      "twitter_account":"SenatorCantwell",
+      "facebook_id":"",
+      "url":"https://www.cantwell.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"Shelley",
+      "last_name":"Capito",
+      "party":"R",
+      "state":"WV",
+      "twitter_account":"SenCapito",
+      "facebook_id":"8057864757",
+      "url":"https://www.capito.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Benjamin",
+      "last_name":"Cardin",
+      "party":"D",
+      "state":"MD",
+      "twitter_account":"SenatorCardin",
+      "facebook_id":"120421834675191",
+      "url":"https://www.cardin.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Thomas",
+      "last_name":"Carper",
+      "party":"D",
+      "state":"DE",
+      "twitter_account":"SenatorCarper",
+      "facebook_id":"124891107521733",
+      "url":"http://www.carper.senate.gov/public",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Bob",
+      "last_name":"Casey",
+      "party":"D",
+      "state":"PA",
+      "twitter_account":"SenBobCasey",
+      "facebook_id":"107749545944874",
+      "url":"https://www.casey.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"Bill",
+      "last_name":"Cassidy",
+      "party":"R",
+      "state":"LA",
+      "twitter_account":"",
+      "facebook_id":"",
+      "url":"http://www.cassidy.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Thad",
+      "last_name":"Cochran",
+      "party":"R",
+      "state":"MS",
+      "twitter_account":"SenThadCochran",
+      "facebook_id":"",
+      "url":"http://www.cochran.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"Susan",
+      "last_name":"Collins",
+      "party":"R",
+      "state":"ME",
+      "twitter_account":"SenatorCollins",
+      "facebook_id":"7593313361",
+      "url":"https://www.collins.senate.gov",
+      "status": "Opposed"
+   },
+    {  
+      "first_name":"Christopher",
+      "last_name":"Coons",
+      "party":"D",
+      "state":"DE",
+      "twitter_account":"SenCoonsOffice",
+      "facebook_id":"254950754518205",
+      "url":"https://www.coons.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"Bob",
+      "last_name":"Corker",
+      "party":"R",
+      "state":"TN",
+      "twitter_account":"SenBobCorker",
+      "facebook_id":"109251415789533",
+      "url":"http://www.corker.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Tom",
+      "last_name":"Cotton",
+      "party":"R",
+      "state":"AR",
+      "twitter_account":"SenTomCotton",
+      "facebook_id":"120355701459307",
+      "url":"https://www.cotton.senate.gov",
+      "status": "Supports"
+   },
+    {  
+      "first_name":"John",
+      "last_name":"Cornyn",
+      "party":"R",
+      "state":"TX",
+      "twitter_account":"JohnCornyn",
+      "facebook_id":"75755694423",
+      "url":"https://www.cornyn.senate.gov",
+      "status": "Unclear"
+   },
+   {  
+      "first_name":"Catherine",
+      "last_name":"Cortez Masto",
+      "party":"D",
+      "state":"NV",
+      "twitter_account":"",
+      "facebook_id":"",
+      "url":"",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Michael",
+      "last_name":"Crapo",
+      "party":"R",
+      "state":"ID",
+      "twitter_account":"MikeCrapo",
+      "facebook_id":"80335332266",
+      "url":"http://www.crapo.senate.gov",
+      "status": "Unclear"
+   },
+   {  
+      "first_name":"Ted",
+      "last_name":"Cruz",
+      "party":"R",
+      "state":"TX",
+      "twitter_account":"SenTedCruz",
+      "facebook_id":"315496455229328",
+      "url":"https://www.cruz.senate.gov",
+      "status": "Supports"
+   },
+   {  
+      "first_name":"Steve",
+      "last_name":"Daines",
+      "party":"R",
+      "state":"MT",
+      "twitter_account":"SteveDaines",
+      "facebook_id":"185361254941832",
+      "url":"https://www.daines.senate.gov",
+      "status": "Supports"
+   },
+   {  
+      "first_name":"Joe",
+      "last_name":"Donnelly",
+      "party":"D",
+      "state":"IN",
+      "twitter_account":"SenDonnelly",
+      "facebook_id":"168059529893610",
+      "url":"http://www.donnelly.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Richard",
+      "last_name":"Durbin",
+      "party":"D",
+      "state":"IL",
+      "twitter_account":"SenatorDurbin",
+      "facebook_id":"180436795325335",
+      "url":"http://www.durbin.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Tammy",
+      "last_name":"Duckworth",
+      "party":"D",
+      "state":"IL",
+      "twitter_account":"RepDuckworth",
+      "facebook_id":"112300955610529",
+      "url":"",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Michael",
+      "last_name":"Enzi",
+      "party":"R",
+      "state":"WY",
+      "twitter_account":"SenatorEnzi",
+      "facebook_id":"23068049436",
+      "url":"http://www.enzi.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Joni",
+      "last_name":"Ernst",
+      "party":"R",
+      "state":"IA",
+      "twitter_account":"SenJoniErnst",
+      "facebook_id":"351671691660938",
+      "url":"http://www.ernst.senate.gov/public",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Dianne",
+      "last_name":"Feinstein",
+      "party":"D",
+      "state":"CA",
+      "twitter_account":"SenFeinstein",
+      "facebook_id":"334887279867783",
+      "url":"http://www.feinstein.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Deb",
+      "last_name":"Fischer",
+      "party":"R",
+      "state":"NE",
+      "twitter_account":"SenatorFischer",
+      "facebook_id":"531623656856934",
+      "url":"http://www.fischer.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Jeff",
+      "last_name":"Flake",
+      "party":"R",
+      "state":"AZ",
+      "twitter_account":"JeffFlake",
+      "facebook_id":"",
+      "url":"http://www.flake.senate.gov/public",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Al",
+      "last_name":"Franken",
+      "party":"D",
+      "state":"MN",
+      "twitter_account":"SenFranken",
+      "facebook_id":"945480788871137",
+      "url":"https://www.franken.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"Cory",
+      "last_name":"Gardner",
+      "party":"R",
+      "state":"CO",
+      "twitter_account":"SenCoryGardner",
+      "facebook_id":"160924893954206",
+      "url":"https://www.gardner.senate.gov",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Kirsten",
+      "last_name":"Gillibrand",
+      "party":"D",
+      "state":"NY",
+      "twitter_account":"SenGillibrand",
+      "facebook_id":"",
+      "url":"https://www.gillibrand.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Lindsey",
+      "last_name":"Graham",
+      "party":"R",
+      "state":"SC",
+      "twitter_account":"GrahamBlog",
+      "facebook_id":"257937783228",
+      "url":"http://www.lgraham.senate.gov/public",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Charles",
+      "last_name":"Grassley",
+      "party":"R",
+      "state":"IA",
+      "twitter_account":"ChuckGrassley",
+      "facebook_id":"106480645796",
+      "url":"http://www.grassley.senate.gov",
+      "status": "Unclear"
+   },
+   {  
+      "first_name":"Kamala",
+      "last_name":"Harris",
+      "party":"D",
+      "state":"CA",
+      "twitter_account":"",
+      "facebook_id":"",
+      "url":"",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Margaret",
+      "last_name":"Hassan",
+      "party":"D",
+      "state":"NH",
+      "twitter_account":"",
+      "facebook_id":"",
+      "url":"",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Orrin",
+      "last_name":"Hatch",
+      "party":"R",
+      "state":"UT",
+      "twitter_account":"SenOrrinHatch",
+      "facebook_id":"",
+      "url":"http://www.hatch.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Martin",
+      "last_name":"Heinrich",
+      "party":"D",
+      "state":"NM",
+      "twitter_account":"MartinHeinrich",
+      "facebook_id":"137523189213",
+      "url":"http://www.heinrich.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Heidi",
+      "last_name":"Heitkamp",
+      "party":"D",
+      "state":"ND",
+      "twitter_account":"SenatorHeitkamp",
+      "facebook_id":"501810613175643",
+      "url":"http://www.heitkamp.senate.gov/public",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Dean",
+      "last_name":"Heller",
+      "party":"R",
+      "state":"NV",
+      "twitter_account":"SenDeanHeller",
+      "facebook_id":"325751330177",
+      "url":"http://www.heller.senate.gov/public",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Mazie",
+      "last_name":"Hirono",
+      "party":"D",
+      "state":"HI",
+      "twitter_account":"MazieHirono",
+      "facebook_id":"",
+      "url":"https://www.hirono.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"John",
+      "last_name":"Hoeven",
+      "party":"R",
+      "state":"ND",
+      "twitter_account":"SenJohnHoeven",
+      "facebook_id":"194483057244478",
+      "url":"https://www.hoeven.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"James",
+      "last_name":"Inhofe",
+      "party":"R",
+      "state":"OK",
+      "twitter_account":"InhofePress",
+      "facebook_id":"55018309421",
+      "url":"http://www.inhofe.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Johnny",
+      "last_name":"Isakson",
+      "party":"R",
+      "state":"GA",
+      "twitter_account":"SenatorIsakson",
+      "facebook_id":"",
+      "url":"http://www.isakson.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Ron",
+      "last_name":"Johnson",
+      "party":"R",
+      "state":"WI",
+      "twitter_account":"SenRonJohnson",
+      "facebook_id":"186181661410703",
+      "url":"http://www.ronjohnson.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Tim",
+      "last_name":"Kaine",
+      "party":"D",
+      "state":"VA",
+      "twitter_account":"SenKaineOffice",
+      "facebook_id":"482778861771212",
+      "url":"http://www.kaine.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Angus",
+      "last_name":"King",
+      "party":"I",
+      "state":"ME",
+      "twitter_account":"SenAngusKing",
+      "facebook_id":"142803045874943",
+      "url":"http://www.king.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Amy",
+      "last_name":"Klobuchar",
+      "party":"D",
+      "state":"MN",
+      "twitter_account":"",
+      "facebook_id":"",
+      "url":"http://www.klobuchar.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"John",
+      "last_name":"Kennedy",
+      "party":"R",
+      "state":"LA",
+      "twitter_account":"",
+      "facebook_id":"",
+      "url":"",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"James",
+      "last_name":"Lankford",
+      "party":"R",
+      "state":"OK",
+      "twitter_account":"SenatorLankford",
+      "facebook_id":"130873066975024",
+      "url":"https://www.lankford.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Patrick",
+      "last_name":"Leahy",
+      "party":"D",
+      "state":"VT",
+      "twitter_account":"SenatorLeahy",
+      "facebook_id":"178569152181267",
+      "url":"https://www.leahy.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Mike",
+      "last_name":"Lee",
+      "party":"R",
+      "state":"UT",
+      "twitter_account":"SenMikeLee",
+      "facebook_id":"178081365556898",
+      "url":"http://www.lee.senate.gov/public",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Joe",
+      "last_name":"Manchin III",
+      "party":"D",
+      "state":"WV",
+      "twitter_account":"Sen_JoeManchin",
+      "facebook_id":"10150135395755161",
+      "url":"http://www.manchin.senate.gov/public",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Edward",
+      "last_name":"Markey",
+      "party":"D",
+      "state":"MA",
+      "twitter_account":"SenMarkey",
+      "facebook_id":"6846731378",
+      "url":"http://www.markey.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"John",
+      "last_name":"McCain",
+      "party":"R",
+      "state":"AZ",
+      "twitter_account":"SenJohnMcCain",
+      "facebook_id":"6425923706",
+      "url":"http://www.mccain.senate.gov",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Claire",
+      "last_name":"McCaskill",
+      "party":"D",
+      "state":"MO",
+      "twitter_account":"McCaskillOffice",
+      "facebook_id":"131498087618",
+      "url":"https://www.mccaskill.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Mitch",
+      "last_name":"McConnell",
+      "party":"R",
+      "state":"KY",
+      "twitter_account":"McConnellPress",
+      "facebook_id":"",
+      "url":"http://www.mcconnell.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Robert",
+      "last_name":"Menendez",
+      "party":"D",
+      "state":"NJ",
+      "twitter_account":"SenatorMenendez",
+      "facebook_id":"349744811357",
+      "url":"https://www.menendez.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Jeff",
+      "last_name":"Merkley",
+      "party":"D",
+      "state":"OR",
+      "twitter_account":"SenJeffMerkley",
+      "facebook_id":"74374931545",
+      "url":"https://www.merkley.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Jerry",
+      "last_name":"Moran",
+      "party":"R",
+      "state":"KS",
+      "twitter_account":"JerryMoran",
+      "facebook_id":"171578807105",
+      "url":"http://www.moran.senate.gov",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Lisa",
+      "last_name":"Murkowski",
+      "party":"R",
+      "state":"AK",
+      "twitter_account":"LisaMurkowski",
+      "facebook_id":"25271170290",
+      "url":"https://www.murkowski.senate.gov",
+      "status": "Unclear"
+   },
+   {  
+      "first_name":"Christopher",
+      "last_name":"Murphy",
+      "party":"D",
+      "state":"CT",
+      "twitter_account":"ChrisMurphyCT",
+      "facebook_id":"19437978960",
+      "url":"https://www.murphy.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Patty",
+      "last_name":"Murray",
+      "party":"D",
+      "state":"WA",
+      "twitter_account":"PattyMurray",
+      "facebook_id":"",
+      "url":"http://www.murray.senate.gov/public",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Bill",
+      "last_name":"Nelson",
+      "party":"D",
+      "state":"FL",
+      "twitter_account":"SenBillNelson",
+      "facebook_id":"",
+      "url":"https://www.billnelson.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Rand",
+      "last_name":"Paul",
+      "party":"R",
+      "state":"KY",
+      "twitter_account":"",
+      "facebook_id":"161355253917286",
+      "url":"https://www.paul.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"David",
+      "last_name":"Perdue",
+      "party":"R",
+      "state":"GA",
+      "twitter_account":"sendavidperdue",
+      "facebook_id":"311482539049477",
+      "url":"http://www.perdue.senate.gov",
+      "status": "Supports"
+   },
+   {  
+      "first_name":"Gary",
+      "last_name":"Peters",
+      "party":"D",
+      "state":"MI",
+      "twitter_account":"SenGaryPeters",
+      "facebook_id":"88851604323",
+      "url":"https://www.peters.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Rob",
+      "last_name":"Portman",
+      "party":"R",
+      "state":"OH",
+      "twitter_account":"SenRobPortman",
+      "facebook_id":"45243961073",
+      "url":"http://www.portman.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Jack",
+      "last_name":"Reed",
+      "party":"D",
+      "state":"RI",
+      "twitter_account":"SenJackReed",
+      "facebook_id":"213866375370646",
+      "url":"https://www.reed.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Pat",
+      "last_name":"Roberts",
+      "party":"R",
+      "state":"KS",
+      "twitter_account":"SenPatRoberts",
+      "facebook_id":"205694792808927",
+      "url":"http://www.roberts.senate.gov",
+      "status": "Unclear"
+   },
+   {  
+      "first_name":"Jim",
+      "last_name":"Risch",
+      "party":"R",
+      "state":"ID",
+      "twitter_account":"SenatorRisch",
+      "facebook_id":"",
+      "url":"http://www.risch.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Mike",
+      "last_name":"Rounds",
+      "party":"R",
+      "state":"SD",
+      "twitter_account":"SenatorRounds",
+      "facebook_id":"",
+      "url":"http://www.rounds.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Marco",
+      "last_name":"Rubio",
+      "party":"R",
+      "state":"FL",
+      "twitter_account":"SenRubioPress",
+      "facebook_id":"178910518800987",
+      "url":"http://www.rubio.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Bernard",
+      "last_name":"Sanders",
+      "party":"I",
+      "state":"VT",
+      "twitter_account":"SenSanders",
+      "facebook_id":"9124187907",
+      "url":"http://www.sanders.senate.gov",
+      "status": "Unknown"
+   },
+    {  
+      "first_name":"Ben",
+      "last_name":"Sasse",
+      "party":"R",
+      "state":"NE",
+      "twitter_account":"SenSasse",
+      "facebook_id":"",
+      "url":"http://www.sasse.senate.gov/public",
+      "status": "Opposed"
+   },
+   {  
+      "first_name":"Brian",
+      "last_name":"Schatz",
+      "party":"D",
+      "state":"HI",
+      "twitter_account":"SenBrianSchatz",
+      "facebook_id":"357806137657533",
+      "url":"http://www.schatz.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Charles",
+      "last_name":"Schumer",
+      "party":"D",
+      "state":"NY",
+      "twitter_account":"SenSchumer",
+      "facebook_id":"15771239406",
+      "url":"https://www.schumer.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Tim",
+      "last_name":"Scott",
+      "party":"R",
+      "state":"SC",
+      "twitter_account":"SenatorTimScott",
+      "facebook_id":"163207553711385",
+      "url":"https://www.scott.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Jeff",
+      "last_name":"Sessions",
+      "party":"R",
+      "state":"AL",
+      "twitter_account":"SenatorSessions",
+      "facebook_id":"23444159584",
+      "url":"http://www.sessions.senate.gov/public",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Jeanne",
+      "last_name":"Shaheen",
+      "party":"D",
+      "state":"NH",
+      "twitter_account":"SenatorShaheen",
+      "facebook_id":"127503767282103",
+      "url":"https://www.shaheen.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Richard",
+      "last_name":"Shelby",
+      "party":"R",
+      "state":"AL",
+      "twitter_account":"SenShelby",
+      "facebook_id":"50850514797",
+      "url":"http://www.shelby.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Debbie",
+      "last_name":"Stabenow",
+      "party":"D",
+      "state":"MI",
+      "twitter_account":"SenStabenow",
+      "facebook_id":"",
+      "url":"http://www.stabenow.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Dan",
+      "last_name":"Sullivan",
+      "party":"R",
+      "state":"AK",
+      "twitter_account":"SenDanSullivan",
+      "facebook_id":"",
+      "url":"http://www.sullivan.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Jon",
+      "last_name":"Tester",
+      "party":"D",
+      "state":"MT",
+      "twitter_account":"SenatorTester",
+      "facebook_id":"210573031664",
+      "url":"http://www.tester.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"John",
+      "last_name":"Thune",
+      "party":"R",
+      "state":"SD",
+      "twitter_account":"SenJohnThune",
+      "facebook_id":"",
+      "url":"http://www.thune.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Thom",
+      "last_name":"Tillis",
+      "party":"R",
+      "state":"NC",
+      "twitter_account":"senthomtillis",
+      "facebook_id":"1576257352609470",
+      "url":"https://www.tillis.senate.gov/public/index.cfm/home",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Patrick",
+      "last_name":"Toomey",
+      "party":"R",
+      "state":"PA",
+      "twitter_account":"SenToomey",
+      "facebook_id":"189274047751251",
+      "url":"http://www.toomey.senate.gov",
+      "status": "Reservations"
+   },
+   {  
+      "first_name":"Tom",
+      "last_name":"Udall",
+      "party":"D",
+      "state":"NM",
+      "twitter_account":"SenatorTomUdall",
+      "facebook_id":"106433512869",
+      "url":"http://www.tomudall.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Chris",
+      "last_name":"Van Hollen",
+      "party":"D",
+      "state":"MD",
+      "twitter_account":"ChrisVanHollen",
+      "facebook_id":"109304033877",
+      "url":"https://www.vanhollen.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Mark",
+      "last_name":"Warner",
+      "party":"D",
+      "state":"VA",
+      "twitter_account":"MarkWarner",
+      "facebook_id":"7935122852",
+      "url":"http://www.warner.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Elizabeth",
+      "last_name":"Warren",
+      "party":"D",
+      "state":"MA",
+      "twitter_account":"SenWarren",
+      "facebook_id":"131559043673264",
+      "url":"http://www.warren.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Roger",
+      "last_name":"Wicker",
+      "party":"R",
+      "state":"MS",
+      "twitter_account":"SenatorWicker",
+      "facebook_id":"158401580882385",
+      "url":"http://www.wicker.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Sheldon",
+      "last_name":"Whitehouse",
+      "party":"D",
+      "state":"RI",
+      "twitter_account":"SenWhitehouse",
+      "facebook_id":"194172833926853",
+      "url":"https://www.whitehouse.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Ron",
+      "last_name":"Wyden",
+      "party":"D",
+      "state":"OR",
+      "twitter_account":"RonWyden",
+      "facebook_id":"",
+      "url":"https://www.wyden.senate.gov",
+      "status": "Unknown"
+   },
+   {  
+      "first_name":"Todd",
+      "last_name":"Young",
+      "party":"R",
+      "state":"IN",
+      "twitter_account":"RepToddYoung",
+      "facebook_id":"186203844738421",
+      "url":"",
+      "status": "Unclear"
+   }
+]

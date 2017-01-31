@@ -33,10 +33,12 @@ select{
 	padding: 0 10%;
 }
 
+.red{color: #BF0A30;}
+
+
 /* HEADER */
 .header{
-	background: steelblue;
-	border-bottom: 2px solid navy;
+	background-color: #002868;
 	height: 45px;
 	line-height: 45px;
 }
@@ -69,7 +71,9 @@ div#map2{
 /* CONGRESS TABLE */
 
 .congress{
-	width: 100%;
+	float: left;
+	margin-right: 2%;
+	width: 48%;
 }
 .congress td{
 	background:;
@@ -80,19 +84,20 @@ div#map2{
 	vertical-align: middle;
 }
 .congress td:first-child{
-	font-size: 20px;
+	font-size: 18px;
 }
 .congress td:nth-child(2){
-	width: 120px;
+	width: ;
 }
-.congress td:nth-child(3){
-	width: 40px;
+.congress td:nth-child(4){
 }
-.R{background-color: indianred;}
-.D{background-color: steelblue;}
-.I{background-color: goldenrod;}
+.Opposed{background-color: mediumseagreen;}
+.Supports{background-color: indianred;}
+.Reservations{background-color: goldenrod;}
+.Unclear{background-color: #999;}
+.Unknown{background-color: #333;}
 
-
+.fb, .tw{width: 25px;}
 
 
 
@@ -120,13 +125,13 @@ div#map2{
 	font-size: 14px;
 	margin-left: 10px;
 }
-.barack-obama{fill: white; background: white;}
+.barack-obama{fill: #002868; background: #002868;}
 .hillary-clinton{fill: steelblue; background: steelblue;}
 .john-edwards{fill: teal; background: teal;}
 .dennis-kucinich{fill: royalblue; background: royalblue;}
 .bill-richardson{fill: cornflowerblue; background: cornflowerblue;}
 .john-mccain{fill: #B22222; background: #B22222;}
-.mitt-romney{fill: white; background: white;}
+.mitt-romney{fill: #002868; background: #002868;}
 .mike-huckabee, .rick-santorum{fill: crimson; background: crimson;}
 .ron-paul{fill: orangered; background: orangered;}
 .rudy-giuliani, .jon-huntsman--jr-{fill: salmon; background: salmon;}

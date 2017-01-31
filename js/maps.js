@@ -135,8 +135,8 @@ function buildSvg(mapId, stateProj, counties, votes, state, year){
 	svg.selectAll("path").data(counties).enter().append("path")
 		.attr({
 			"d":  path,
-			"stroke": "steelblue",
-			"stroke-width": 1,
+			"stroke": "#BF0A30",
+			"stroke-width": 3,
 			"id": function(d){return d.properties.geoid; },
 			"class": function(d){return fillColor(votes, d.properties.geoid, year); },
 			"data-state": function(d){return d.properties.LSAD; }
@@ -151,7 +151,7 @@ function buildSvg(mapId, stateProj, counties, votes, state, year){
 			else{var xPos = pageX - tooltipWidth - 20;}
 				
 			d3.select(this).attr({
-				"stroke-width": 2
+				"stroke-width": 5
 			})
 			tooltip.transition()
 				.duration(300)
@@ -162,7 +162,7 @@ function buildSvg(mapId, stateProj, counties, votes, state, year){
 		})
 		.on("mouseout", function(d){
 			d3.select(this).attr({
-				"stroke-width": 1
+				"stroke-width": 3
 			})
 			tooltip.transition()
 				.duration(300)

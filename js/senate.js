@@ -1,3 +1,5 @@
+var headliners = [];
+
 var data = senateData;
 
 data.sort(function(a,b) {return (a.status > b.status) ? 1 : ((b.status > a.status) ? -1 : 0);} ); 
@@ -15,6 +17,7 @@ for(i=0; i<data.length; i++){
 		var website = data[i]['url'];
 		var status = data[i]['status'];
 
+		if(status == 'Supports') headliners.push(firstName + ' ' + lastName);
 
 		var row = '<tr class="' + status + '">';
 		row += '<td>' + firstName + ' ' + lastName + '</td>';

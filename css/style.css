@@ -58,18 +58,28 @@ div{
 	background: rgba(0,33,71,0.95);
 	color: #E0162B;
 	height: 100%;
-	padding-top: 30px;
+	overflow-x: hidden;
 	position: absolute;
 	text-align: center;
 	top: 0;
 	width: 100%;
 	z-index: 2;
 }
-.overlay p{
+.overlay .names{
+	color: #E0162B;
+	display: none;
+	font-size: 144px;
+	position: absolute;
+	text-align: center;
+  	top: 50%;
+  	transform: perspective(1px) translateY(-50%);
+  	width: 100%;
+}
+/*.overlay p{
 	color: white;
 	font-size: 18px;
 	margin-bottom: 15px;
-}
+}*/
 h1{
 	font-size: 36px;
 	line-height: 28px;

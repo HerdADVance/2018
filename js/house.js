@@ -15,6 +15,7 @@ for(i=0; i<data.length; i++){
 		var website = data[i]['url'];
 		var status = data[i]['status'];
 
+		if(status == 'Supports') headliners.push(firstName + ' ' + lastName);
 
 		var row = '<tr class="' + status + '">';
 		row += '<td>' + firstName + ' ' + lastName + '</td>';
@@ -29,4 +30,40 @@ for(i=0; i<data.length; i++){
 		$('.house').append(row);
 
 	}
+}
+
+//$('.names').hide().html(headliners[0]).fadeIn(3000);
+
+for(i=0; i<headliners.length; i++){
+	var className = classifyName(headliners[i]);
+	fillName(headliners[i], className);
+}
+
+var headlinersIndex = 0;
+var headlinersDelay = 1000;
+slideOver(headliners[headlinersIndex]);
+
+
+function fillName(name, className){
+	$('.overlay').append('<p class="names ' + className + '">' + name + '</p>');
+}
+
+function classifyName(name){
+	name = name.replace(/\,/g, '-').toLowerCase();
+	return name = name.replace(/\s+/g, '-').toLowerCase();
+	/\./g,' '
+}
+
+function slideOver(name){
+	var className = classifyName(name);
+	
+	$('.' + className).show();
+
+	$('.' + className).fadeOut(headlinersDelay, function(){
+        if(headlinersIndex < headliners.length){
+			headlinersIndex ++;
+			if(headlinersDelay >= 150) headlinersDelay -= 50;
+			slideOver(headliners[headlinersIndex]);
+		}
+    });
 }

@@ -26,11 +26,14 @@ a:hover, a:visited{
 select{
 	cursor: pointer;
 }
+div{
+	box-sizing: border-box;
+}
 .container{
 	width: 100%;
 }
 .wrapper{
-	padding: 0 10%;
+	padding: 0 3%;
 }
 
 .red{color: #BF0A30;}
@@ -41,6 +44,36 @@ select{
 	background-color: #002868;
 	height: 45px;
 	line-height: 45px;
+}
+
+/* HEADLINE */
+.headline{
+	background-position: center left;
+	background-size: cover;
+	background-image: url(../statue-of-liberty.jpg);
+	height: 100vh;
+	position: relative;
+}
+.overlay{
+	background: rgba(0,33,71,0.95);
+	color: #E0162B;
+	height: 100%;
+	padding-top: 30px;
+	position: absolute;
+	text-align: center;
+	top: 0;
+	width: 100%;
+	z-index: 2;
+}
+.overlay p{
+	color: white;
+	font-size: 18px;
+	margin-bottom: 15px;
+}
+h1{
+	font-size: 36px;
+	line-height: 28px;
+	text-align: center;
 }
 
 

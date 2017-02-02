@@ -20,8 +20,8 @@ body{
 	background: #FFFFFF;
 	font-family: 'Varela Round', sans-serif;
 }
-a:hover, a:visited{
-	color:#337ab7;
+a{
+	text-decoration: none;
 }
 select{
 	cursor: pointer;
@@ -41,9 +41,38 @@ div{
 
 /* HEADER */
 .header{
-	background-color: #002868;
-	height: 45px;
-	line-height: 45px;
+	border-bottom: 1px solid #0052A5;
+	height: 75px;
+	line-height: 75px;
+	position: absolute;
+	width: 100%;
+	z-index: 3;
+}
+.header-title{
+	color: #BF0A30;
+	float: left;
+	font-size: 42px;
+}
+
+.main-nav{
+	float: right;
+}
+.main-nav li{
+	display: inline-block;
+	margin-right: 40px;
+}
+.main-nav li:last-child{
+	margin-right: 0;
+}
+.main-nav li a{
+	color: whitesmoke;
+	font-size: 22px;
+}
+.main-nav li a:hover {
+    color: #0052A5;
+    -webkit-transition: color 500ms linear;
+    -ms-transition: color 500ms linear;
+    transition: color 500ms linear;
 }
 
 /* HEADLINE */
@@ -86,6 +115,16 @@ h1{
 	text-align: center;
 }
 
+/* SECTIONS */
+.section{
+	background: #000;
+	border-bottom: 1px solid #FFF;
+	border-top: 1px solid #FFF;
+	overflow: auto;
+	padding-bottom: 50px;
+	padding-top: 50px;
+}
+
 
 /* MAP AREAS */
 div#maincon{
@@ -115,8 +154,11 @@ div#map2{
 
 .congress{
 	float: left;
-	margin-right: 2%;
+	margin-right: 4%;
 	width: 48%;
+}
+.congress:last-child{
+	margin-right: 0;
 }
 .congress td{
 	background:;
@@ -135,7 +177,7 @@ div#map2{
 .congress td:nth-child(4){
 }
 .Opposed{background-color: mediumseagreen;}
-.Supports{background-color: indianred;}
+.Supports{background-color: #BF0A30;}
 .Reservations{background-color: goldenrod;}
 .Unclear{background-color: #999;}
 .Unknown{background-color: #333;}
